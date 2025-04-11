@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #232323;
+    color : rgb(28, 30, 32);
+    
+}
+
+.container{
+    text-align: center;
+    background: #df3737;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 20 30 rgba(0, 0, 0, 0.8);
+}
+
+#time{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+#date{
+    font-size: 2rem;
+    color: bisque;
+}

@@ -11,6 +11,7 @@ todoButton.addEventListener('click', () => {
     const value = todoInput.value;
     if (!value){
         alert('plese add your acctivity')
+        return
     }
 
     const li = document.createElement('li')

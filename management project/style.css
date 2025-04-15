@@ -6,9 +6,9 @@
 }
 .board{
     border: 1px solid rgb(63, 61, 61);
-    height: 60vh;
+    height: 80vh;
     padding: 10px;
-    width: 200px;
+    width: 33%;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -16,6 +16,9 @@
     display: flex;
     gap: 10px;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 

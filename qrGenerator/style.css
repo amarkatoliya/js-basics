@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #4facfe;
+    outline: none;
+  }
+  
+  .qrBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .qrBox img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  #qrBtn {
+    background: #4facfe;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #qrBtn:hover {
+    background: #00c3ff;
+  }
+  
+  #downloadBtn {
+    background: #00c3ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #downloadBtn:hover {
+    background: #009acb;
+  }
+  

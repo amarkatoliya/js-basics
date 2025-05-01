@@ -5,6 +5,7 @@ function backGroundchange(color){
 const themeButton = document.getElementById('theme-btn')
 
 themeButton.addEventListener('click', function () {
+    
     console.log('i am clicked');
     if(!document.body.style.backgroundColor || document.body.style.backgroundColor == 'white'){
         backGroundchange('black')

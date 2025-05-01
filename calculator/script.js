@@ -4,6 +4,7 @@ let expression = "";
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
+        
         const value = button.textContent.trim(); // removes any accidental spaces
 
         switch (value) {
@@ -20,6 +21,7 @@ buttons.forEach(button => {
             case "=":
                 try {
                     expression = eval(expression).toString();
+
                     input.value = expression;
                 } catch {
                     input.value = "Error";
@@ -28,7 +30,9 @@ buttons.forEach(button => {
                 break;
 
             default:
+
                 expression += value;
+
                 input.value = expression;
         }
     });

@@ -2,7 +2,8 @@ function backGroundchange(color){
     document.body.style.backgroundColor = color;
 }
 
-const themeButton = document.getElementById('theme-btn')
+const themeButton = document.getElementById('theme-btn');
+
 
 themeButton.addEventListener('click', function () {
     
